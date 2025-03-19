@@ -1,0 +1,768 @@
+.container {
+    width: 90%; /* Adjust as needed for responsiveness */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Add padding for spacing */
+    width: 1280px;
+    height: 80px;
+    color: white;
+
+}
+
+
+
+
+
+.logo {
+    font-size: 20px;
+    font-family: Epilogue;
+    line-height: 30px;
+    width: 49px;
+    height: 30px;
+    color: #2d2d2d; /* Adjust as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 261px;
+    height: 28px;
+    top: 26px;
+    left: 969px;
+    color: #2d2d2d;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Adjust spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2d2d2d;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Epilogue;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 624px;
+    padding: 100px;
+    gap: 10px;
+    color: white;
+}
+.text-content{
+    width: 557px;
+    height: 317px;
+    gap: 40px;
+}
+.text-content > p:first-child {
+    width: 557px;
+    height: 30px;
+    font-family: Epi=logue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.text-content > h1{
+    width: 557px;
+    height: 180px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    color: #2d2d2d;
+    font-family: Epilogue;
+
+}
+.text-content > p:last-child{
+    width: 557px;
+    height: 27px;
+    font-family: Epilogue;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+.div-hero-image img {
+    width: 495px;
+    height: 424px;
+
+}
+.link-container {
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+    border-color: #00000033;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    width: 1280px;
+    margin: 0 auto;
+    padding-right: 66px;
+    padding-left: 66px;
+    gap: 10px;
+    color: white;
+}
+
+.brand-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1078px;
+    height: 100px;
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;    
+    border-color: #00000033;   
+    border-top: 2px  #ccc;
+    border-bottom: 2px  #ccc;
+    
+}
+
+.brand-link {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 34px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.apple {
+width: 38px;
+height: 46px;
+color: #2d2d2d;
+
+}
+
+.dribbble {
+    width: 24px;
+    height: 24px;
+}
+.skills-container{
+    width: 999px;
+    height: 328px;
+    gap: 125px;
+    display: flex;
+    justify-content: space-around;
+    padding: 250px;
+}
+.first-skill-div-textcontent > h1{
+    width: 249px;
+    height: 42px;
+    font-family: Epilogue;
+    font-size: 27px;
+    font-weight: 600;
+    align-items: center;
+    color: #2d2d2d;
+
+}
+.first-skill-div-textcontent > p {
+    width: 249px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #2d2d2d;
+}
+ 
+.first-skill-div-img > img {
+    width: 130px;
+    height: 130px;
+}
+.second-skill-div-textcontent > h1{
+    width: 249px;
+    height: 42px;
+    font-family: Epilogue;
+    font-size: 27px;
+    line-height: 42px;
+    font-weight: 600;
+    align-items: center;
+    color: #2d2d2d;
+
+}
+.second-skill-div-textcontent > p {
+    width: 249px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #2d2d2d;
+}
+.second-skill-div-img > img {
+    width: 130px;
+    height: 130px;
+}
+.third-skill-div-img > img {
+    width: 130px;
+    height: 130px;
+}
+.third-skill-div-textcontent > p {
+    width: 249px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #2d2d2d;
+}
+.third-skill-div-textcontent > h1{
+    width: 249px;
+    height: 42px;
+    font-family: Epilogue;
+    font-size: 27px;
+    line-height: 42px;
+    font-weight: 600;
+    align-items: center;
+    color: #2d2d2d;
+
+}
+.work-display-container {
+    padding: 100px;
+    gap: 60px;
+    width: 1280px;
+    height: 1016px;
+
+}
+.top-center-text {
+    text-align: center;
+    
+    height: 42px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    
+    color: #2d2d2d;
+}
+.Stripe-one {
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    height: 407px;
+    gap: 67px;
+    padding-left: 120px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.word-card-one-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-one-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.word-card-one-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.word-card-two-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-two-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.word-card-two-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.word-card-three-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-three-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.word-card-three-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.word-card-four-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-four-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+
+.Stripe-two {
+    display: flex;
+    justify-content: space-around;
+    width: 1080px;
+    height: 407px;
+    gap: 67px;
+    padding-left: 120px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.word-card-four-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.word-card-five-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-five-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.word-card-five-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.word-card-six-img > img {
+    width: 315px;
+    height: 315px;
+}
+.word-card-six-textcontent > h3 {
+    width: 315px;
+    height: 30px;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2d2d2d;
+}
+.word-card-six-textcontent > h4 {
+    width: 315px;
+    height: 27px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.Clients-container {
+    width: 1280px;
+    height: 675px;
+    padding: 100px;
+    gap: 10px;
+}
+.cilent-display-container > h1 {
+    text-align: center;
+    align-content: center;
+    font-family: Epilogue;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 27px;
+    padding-top: 37px;
+}
+.Clients-content{
+    display: flex;
+    width: 1080px;
+    height: 344px;
+    gap: 67px;
+    padding-left: 120px;
+}
+    
+.first-client-container {
+    border: 1.5px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    align-items: center;
+    align-content: center;
+    background-color: greenyellow;
+}
+.second-client-container {
+    border: 1.5px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    align-items: center;
+    align-content: center;
+    background-color: greenyellow;
+}
+.third-client-container {
+    border: 1.5px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    align-items: center;
+    align-content: center;
+    background-color: greenyellow;
+}
+.first-client-content-p {
+    width: 263px;
+    height: 120px;
+    font-family: Epilogue;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 65px;
+}
+.second-client-content-p {
+    width: 263px;
+    height: 120px;
+    font-family: Epilogue;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 65px;
+}
+.third-client-content-p {
+    width: 263px;
+    height: 120px;
+    font-family: Epilogue;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 65px;
+}
+.Client-info-one{
+    display: flex;
+    width: 193px;
+    height: 84px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Client-info-two{
+    display: flex;
+    width: 193px;
+    height: 84px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Client-info-three{
+    display: flex;
+    width: 193px;
+    height: 84px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Client-card-img > img {
+    border: 1px solid #D8D8D8 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px;
+}
+.cilent-name {
+    width: 193px;
+    height: 54px;
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+.Rate-stars > img{
+    width: 120px;
+    height: 20px;
+    gap: 5px;
+
+}
+
+.last-container {
+    display: flex;  
+    background-color: white; 
+    border-radius: 8px;
+    width: 1280px;
+    height: 669px;
+    padding: 100px;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+button {
+    background-color: #444; /* Dark gray button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #333; /* Slightly darker gray on hover */
+}
+
+@media screen and (max-width: 600px) and (min-width: 375px) {
+    .container {
+        width: 95%; /* Adjust container width for smaller screens */
+        padding: 0 10px; /* Reduce padding */
+    }
+
+    .nav-bar {
+        flex-direction: column; /* Stack logo and links vertically */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px 0; /* Reduce padding */
+        width: auto; /* Allow width to adjust */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+        align-items: flex-start; /* Align links to the start */
+        margin-top: 10px; /* Add space between logo and links */
+        width: auto; /* Allow width to adjust */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .nav-links li {
+        margin-left: 0; /* Remove left margin */
+        margin-bottom: 5px; /* Add bottom margin for spacing */
+    }
+
+    .hero-container {
+        flex-direction: column; /* Stack text and image vertically */
+        padding: 20px; /* Reduce padding */
+        height: auto; /* Allow height to adjust */
+        width: auto; /* Allow width to adjust */
+    }
+
+    .text-content {
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .text-content > h1 {
+        font-size: 3em; /* Adjust font size */
+        line-height: 1.2; /* Adjust line height */
+    }
+
+    .div-hero-image img {
+        width: 100%; /* Full width image */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .link-container {
+        width: 100%; /* Full width */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .brand-links {
+        flex-wrap: wrap; /* Allow links to wrap to the next line */
+        justify-content: center; /* Center links */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .brand-link {
+        margin: 10px; /* Adjust margin */
+        font-size: 1.5em; /* Adjust font size */
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stack skills vertically */
+        padding: 20px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+        gap: 20px; /* Adjust gap */
+    }
+
+    .first-skill-div, .second-skill-div, .third-skill-div {
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .first-skill-div-img img, .second-skill-div-img img, .third-skill-div-img img {
+        width: 80px; /* Adjust image size */
+        height: 80px;
+    }
+
+    .work-display-container {
+        padding: 20px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .Stripe-one, .Stripe-two {
+        flex-direction: column; /* Stack work cards vertically */
+        padding: 10px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .Work.card-one, .Work.card-two, .Work.card-three, .Work.card-four, .Work.card-five, .Work.card-six {
+        margin-bottom: 20px; /* Add margin between cards */
+    }
+
+    .word-card-one-img img, .word-card-two-img img, .word-card-three-img img, .word-card-four-img img, .word-card-five-img img, .word-card-six-img img {
+        width: 100%; /* Full width image */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .Clients-container {
+        padding: 20px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .Clients-content {
+        flex-direction: column; /* Stack client reviews vertically */
+        padding: 10px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .first-client-container, .second-client-container, .third-client-container {
+        width: 90%; /* Adjust container width */
+        margin-bottom: 20px; /* Add margin between containers */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .last-container {
+        flex-direction: column; /* Stack left and right sections vertically */
+        padding: 20px; /* Reduce padding */
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .left-section, .right-section {
+        width: 100%; /* Full width */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .social-icons {
+        display: flex; /* Use flexbox for icons */
+        flex-wrap: wrap; /* Allow icons to wrap */
+    }
+
+    .social-icons a {
+        margin: 5px; /* Adjust margin */
+    }
+
+    form input, form textarea {
+        width: calc(100% - 22px); /* Adjust input width */
+    }
+}
+/* @media screen and (max-width: 600px) and (min-width: 375px) { */
+
+
+  /* .brand-links { 
+    /*
+        flex-wrap: wrap; /* Allow links to wrap to the next line */
+     /*   justify-content: center; /* Center links */
+     /*   width: 100%; /* Full width */
+     /*   height: auto; /* Allow height to adjust */
+    
+
+    /*.brand-link {
+        margin: 10px; /* Adjust margin */
+      /*  font-size: 1.5em; /* Adjust font size */
+   
+/* } */
+/*  */
